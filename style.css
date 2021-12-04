@@ -8,19 +8,24 @@ body{
                 background-size: cover;  
 }
 form{
+                margin: auto;
+                margin-top: 20px;
                 width: 450px;
                 height: 650px;
                 background-color: rgba(255, 255, 255, 0.61);
                 color: black; 
                 border-top-left-radius: 7px;
                 border-bottom-left-radius: 7px;
-                float: right;
-
+                border-bottom-right-radius: 7px; 
+                border-top-right-radius: 7px;
 }
 h1{
                 text-align: center;
-                font-family: ubuntu;
+                font-family: bebas neue;
                 padding-top: 20px;
+                font-size: 2.5em;
+                color: orangered;
+                text-shadow: 2px 2px 2px black;
 }
 
 #spacealtura{
@@ -52,6 +57,8 @@ h1{
                 margin-left: 175px;
                 padding: 5px;
                 font-weight: bold;
+                background-color:orangered;
+                color: white;
 }
 
 #resultcalc{
@@ -65,16 +72,3 @@ h1{
                 font-family: ubuntu;
                 margin-top: 7px;
 }
-#motivacao{
-                margin-top: 100px;
-                
-                
-}
-#motivacao > p{
-                text-align: center;
-                padding: 10px;
-                font-size:1.1rem ;
-                font-family: helvetica, sans-serif;
-                color: rgb(32, 32, 32);
-}
-
