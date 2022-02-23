@@ -3,6 +3,8 @@
                 padding: 0;
 }
 
+
+
 #container{
                 max-width: 1000px;
                 margin: auto;
@@ -18,10 +20,10 @@ img{
 }
 .camposinput{
                 width: 350px;
-                padding-top:40px ;
-                
-                
+                padding-top:40px ;      
+
 }
+
 h1{
                 text-align: center;
                 font-family: bebas neue;
@@ -36,14 +38,19 @@ h1{
                 display: flex;
                 flex-direction: column; 
                 align-items: center;
+                
 }
 #spacealtura > label{
                 font-size:1.3rem ;
                 font-family: helvetica, sans-serif;
+                font-weight: bold;
+                color: #3526c7;
 }
 #spacealtura > input{
-                padding: 5px;
-                border-radius: 4px;
+                padding: 7px;
+                border-style: none;
+                border-radius: 10px;
+                background-color: #51fdfd;
 }
 #spacepeso{    margin: auto; 
                width: 250px;
@@ -54,17 +61,27 @@ h1{
 #spacepeso > label{
                 font-size:1.3rem ;
                 font-family: helvetica, sans-serif;
+                font-weight: bold;
+                color: #3526c7;
 }
 #spacepeso > input{
-                padding: 5px;
-                border-radius: 4px;
+                padding: 7px;
+                border-style: none;
+                border-radius: 10px;
+                background-color: #51fdfd;
 }
 #buttoncalculo{
+                width: 100px;
                 padding: 5px;
+                font-family: Helvetica, sans-serif;
                 font-weight: bold;
                 display: block;
                 margin: auto;
                 margin-top: 40px;
+                border-radius: 20px;
+                border-style: none;
+                background-color: #e3115c;
+                box-shadow: 1px 1px 10px #fd7575;
 }
 
 #resultcalc{
@@ -77,4 +94,12 @@ h1{
                 font-size: 1.5em;
                 font-family: ubuntu;
                 margin-top: 7px;
+}
+
+.txtrodape{
+                font-family: Helvetica, sans-serif;
+                font-weight: 600;
+                background-color: #3526c7;
+                
+                
 }
