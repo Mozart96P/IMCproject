@@ -7,6 +7,7 @@
 
 #container{
                 max-width: 1000px;
+                min-width: 320px;
                 margin: auto;
                 margin-top: 30px ;
                 display: flex;
@@ -95,11 +96,28 @@ h1{
                 font-family: ubuntu;
                 margin-top: 7px;
 }
+/* TRABALHANDO NA RESPOSIVIDADE */
 
-.txtrodape{
-                font-family: Helvetica, sans-serif;
-                font-weight: 600;
-                background-color: #3526c7;
+@media screen and (max-width: 400px) {
+          h1{
+                                font-size: 1.5em;
+          }      
+          img{
+                          width: 250px;
+                          margin: auto;
+          }   
+          #container{
                 
-                
+                width: 320px;
+                margin-top: 20px ;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-between;   
+          }
+          
+          .camposinput{
+                          width: 250px;
+                          margin: auto;
+          }
 }
