@@ -5,51 +5,55 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>FullHealth</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
       <div id="Container">
-            <header>
-                  <h1>FullHealth</h1>
-                  <nav>
-                        <ul>
-                              <li>Quem somos</li>
-                              <li>Nosso objetivo</li>
-                              <li>Treinamentos</li>
-                              <li id="btn-inscreva-se">Iscreva-se</li>
-                        </ul>
+            <header id="cabecalho">
+                  <h1 id="titulo-cabecalho">Full Health</h1>
+                  <nav id="menu-navegacao">
+                        <a class="itens-menu-navegacao">Quem somos</a>
+                        <a class="itens-menu-navegacao">Nosso objetivo</a>
+                        <a class="itens-menu-navegacao">Treinamentos</a>
+                        <a id="btn-inscreva-se">Inscreva-se</a>
                   </nav>
             </header>
-            <div id="conteudo">
-                  <section>
-                        <h2>SUA MAIOR RECOMPENSA É A SAÚDE</h2>
+            <div id="conteudo-pagina">
+                  <section id="descricao-pagina">
+                        <h2 id="titulo-descricao-pagina">SUA MAIOR RECOMPENSA É A SAÚDE</h2>
 
-                        <p>Use a nossa calculadora de índice de massa corporal para avaliar como você está. Em seguida te mostraremos qual a nossa indicação de exercício se encaixa melhor à sua situação.</p>
+                        <p id="paragrafo-descricao-pagina">Use a nossa calculadora de índice de massa corporal para avaliar como você está. Em seguida te mostraremos qual a nossa indicação de exercício se encaixa melhor à sua situação.</p>
 
-                        <button>Saúde Já</button>
+                        <button id="btn-saudeja">Saúde Já</button>
                   </section>
-                  <div>
+                  <div id="imagem-pagina">
                        <img src="Imagens/FitnessWoman.png" alt=""> 
                   </div>
                   <div id="CalcIMC">
-                        <h3>IMC</h3>
-                        <label for="">Altura</label>
-                        <input type="number">
-                        <label for="">Peso(Kg)</label>
-                        <input type="number">
-                        <button>Calcular</button>
+                        <h3 id="titulo-imc">IMC</h3>
+                        <div class="espaco-campos">
+                              <label class="titulos-campos" for="">Altura</label>
+                              <input class="campos-dados" type="number">  
+                        </div>
+                        <div class="espaco-campos">
+                              <label class="titulos-campos" for="">Peso(Kg)</label>
+                              <input class="campos-dados" type="number">
+                        </div>
+                        <button id="btn-calc">Calcular</button>
+                        <div id="Resultado"></div>
                   </div>
             </div>
-            <footer>
+            <footer id="rodape">
                   <div id="Contatos">
-                        <img src="Imagens/Redes/YouTube.png" alt="PáginaYouTube">
-                        <img src="Imagens/Redes/Facebook.png" alt="PáginaFacebook">
-                        <img src="Imagens/Redes/Instagram.png" alt="PáginaInstagram">
-                        <img src="Imagens/Redes/Website.png" alt="Site da Empresa">
+                        <img class="contatos-redes" src="Imagens/Redes/YouTube.png" alt="PáginaYouTube">
+                        <img class="contatos-redes" src="Imagens/Redes/Facebook.png" alt="PáginaFacebook">
+                        <img class="contatos-redes" src="Imagens/Redes/Instagram.png" alt="PáginaInstagram">
+                        <img class="contatos-redes" src="Imagens/Redes/Website.png" alt="Site da Empresa">
                   </div>
-                  <div>
-                        <p>Desenvolvido por Francis Mozart Pelissari</p>
-                  </div>
+                  <h4>Desenvolvido por Francis Mozart Pelissari</h4>
             </footer>
       </div>
+      <script src="script.js"></script>
 </body>
 </html>
