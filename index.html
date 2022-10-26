@@ -34,13 +34,13 @@
                         <h3 id="titulo-imc">IMC</h3>
                         <div class="espaco-campos">
                               <label class="titulos-campos" for="">Altura</label>
-                              <input class="campos-dados" type="number">  
+                              <input id="InformacaoAltura" class="campos-dados" type="number">  
                         </div>
                         <div class="espaco-campos">
                               <label class="titulos-campos" for="">Peso(Kg)</label>
-                              <input class="campos-dados" type="number">
+                              <input id="InformacaoPeso" class="campos-dados" type="number">
                         </div>
-                        <button id="btn-calc">Calcular</button>
+                        <button id="btn-calc" onclick="calcularimc()">Calcular</button>
                         <div id="Resultado"></div>
                   </div>
             </div>
@@ -55,5 +55,6 @@
             </footer>
       </div>
       <script src="script.js"></script>
+      
 </body>
 </html>
